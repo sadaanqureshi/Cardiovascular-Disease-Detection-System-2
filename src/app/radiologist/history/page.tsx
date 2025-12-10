@@ -97,6 +97,7 @@ export default function UploadHistory() {
         <GenericFormModal
             isOpen={isViewModalOpen}
             onClose={() => setIsViewModalOpen(false)}
+            // initialData={userData}
             title="Report Details"
             fields={viewFields}
             onSubmit={() => setIsViewModalOpen(false)}
