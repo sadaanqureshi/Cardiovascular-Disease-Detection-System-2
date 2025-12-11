@@ -78,7 +78,7 @@ export default function ManagePatients() {
     { name: 'email', label: 'Email Address', type: 'email', placeholder: 'patient@example.com', required: true },
     { name: 'age', label: 'Age', type: 'number', placeholder: '45', required: true },
     { name: 'gender', label: 'Gender', type: 'select', options: ['Male', 'Female', 'Other'], required: true },
-    { name: 'contact', label: 'Contact Number', type: 'text', placeholder: '03001234567', required: true },
+    { name: 'contact', label: 'Contact Number', type: 'number', placeholder: '03001234567', required: true },
     { name: 'address', label: 'Address', type: 'textarea', placeholder: "Enter patient's address", required: true },
     
     // --- 2. ASSIGN DOCTOR DROPDOWN ---

@@ -66,7 +66,7 @@ export default function ManageRadiologists() {
   const radiologistFields = [
     { name: 'fullName', label: 'Full Name', type: 'text', placeholder: 'Dr. John Smith', required: true },
     { name: 'email', label: 'Email Address', type: 'email', placeholder: 'radiologist@hospital.com', required: true },
-    { name: 'contact', label: 'Contact Number', type: 'text', placeholder: '03001234567', required: true },
+    { name: 'contact', label: 'Contact Number', type: 'number', placeholder: '03001234567', required: true },
     { name: 'password', label: 'Password', type: 'password', placeholder: '........', required: !currentRadiologist },
   ];
 

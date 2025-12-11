@@ -79,7 +79,7 @@ export default function ManageDoctors() {
     { name: 'email', label: 'Email Address', type: 'email', placeholder: 'doctor@hospital.com', required: true },
     { name: 'status', label: 'Status', type: 'select', options: ['Active', 'Inactive'], required: true }, // Status Added
     { name: 'password', label: 'Password', type: 'password', placeholder: currentDoctor ? 'Leave blank to keep same' : '........', required: !currentDoctor },
-    { name: 'contact', label: 'Contact Number', type: 'text', placeholder: '03001234567', required: true },
+    { name: 'contact', label: 'Contact Number', type: 'number', placeholder: '03001234567', required: true },
     { name: 'experience', label: 'Experience (Years)', type: 'number', placeholder: '5', required: true },
   ];
 
